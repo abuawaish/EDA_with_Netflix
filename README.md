@@ -5,22 +5,25 @@ This repository contains an exploratory data analysis (EDA) on a Netflix dataset
 ## Dataset
 
 The dataset used for this analysis typically includes details such as:
-- **Title**: Name of the Netflix show or movie.
-- **Director**: Director(s) of the content (if available).
-- **Cast**: Main actors/actresses.
-- **Country**: Country of origin.
-- **Date Added**: When the content was added to Netflix.
-- **Release Year**: The year the content was originally released.
-- **Rating**: Age rating (e.g., PG, R, TV-MA).
-- **Duration**: Length of the movie or number of seasons for a TV show.
-- **Genre/Category**: The genre or type of content.
-- **Description**: A brief overview of the content.
+
+```text
+| Column Name        | Description                                                  |
+|--------------------|--------------------------------------------------------------|
+| Release_Date       | The release date of the movie (YYYY-MM-DD format).           |
+| Title              | The name of the movie.                                       |
+| Overview           | A brief synopsis of the movie.                               |
+| Popularity         | A numerical score representing the movie's popularity.       |
+| Vote_Count         | The number of votes the movie has received.                  |
+| Vote_Average       | The average rating of the movie based on votes.              |
+| Original_Language  | The original language of the movie (e.g., "en" for English). |
+| Genre              | The genre(s) of the movie (e.g., Action, Drama).             |
+| Poster_Url         | A URL to the movie’s poster image.                           |
+```
 
 ## Repository Structure
 
 - **Netflix_EDA.ipynb**: Jupyter Notebook containing the full EDA workflow. This notebook walks through data cleaning, visualization, and insight generation.
-- **data/**: Directory containing the Netflix dataset.
-- **figures/**: Directory where the generated plots and visualizations are saved.
+- **dataset/**: Directory containing the Netflix dataset.
 - **requirements.txt**: List of Python packages required to run the analysis.
 
 ## Analysis Overview
